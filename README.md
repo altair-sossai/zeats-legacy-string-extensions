@@ -57,3 +57,11 @@ Checks if a string has only 0-9 numbers
 "192".HasOnlyNumbers() /* return true */
 ```
 ---
+
+### string.OnlyNumbers()
+Returns a new string containing only the numbers from the original string
+```c#
+"123a".OnlyNumbers() /* return "123" */
+"192".OnlyNumbers() /* return "192" */
+```
+---

@@ -6,7 +6,7 @@ namespace Zeats.Legacy.StringExtensions.UnitTest
     public class HasOnlyNumbersTest
     {
         [TestMethod]
-        public void HasOnlyNumbersExtension()
+        public void HasOnlyNumbers()
         {
             Assert.IsFalse(((string) null).HasOnlyNumbers());
             Assert.IsFalse(string.Empty.HasOnlyNumbers());
