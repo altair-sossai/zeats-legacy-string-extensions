@@ -16,11 +16,10 @@ Install-Package Zeats.Legacy.StringExtensions
 
 Upercase the first position of the string
 
-| Input | Output |
-| ------ | ------ |
-| 123 | 123 |
-| lorem ipsum dolor | Lorem ipsum dolor |
-| lOREM IPSUM DOLOR | LOREM IPSUM DOLOR |
-| LOREM IPSUM DOLOR | LOREM IPSUM DOLOR |
+```c#
+"lorem ipsum dolor".FirstCharToUpper() /* return "Lorem ipsum dolor" */
+"lOREM IPSUM DOLOR".FirstCharToUpper() /* return "LOREM IPSUM DOLOR" */
+"LOREM IPSUM DOLOR".FirstCharToUpper() /* return "LOREM IPSUM DOLOR" */
+```
 
 ---
