@@ -29,3 +29,12 @@ Ensures the realization of the substring without throwing exception
 "12345 7890".SafeSubstring(start: 0, length: 6) /* return "12345 " */
 ```
 ---
+
+### string.AlignRight(char paddingChar = ' ')
+Right align content of a string
+```c#
+"Lorem Ipsum".AlignRight() /* return "Lorem Ipsum" */
+"  Lorem Ipsum  ".AlignRight() /* return "    Lorem Ipsum" */
+"  Lorem Ipsum  ".AlignRight('X') /* return "XXXXLorem Ipsum" */
+```
+---
