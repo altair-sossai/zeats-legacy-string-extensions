@@ -65,3 +65,13 @@ Returns a new string containing only the numbers from the original string
 "192".OnlyNumbers() /* return "192" */
 ```
 ---
+
+### string.OnlyNumbersOrWhiteSpace()
+Returns a new string containing only the numbers or white space from the original string
+```c#
+"123a".OnlyNumbersOrWhiteSpace() /* return "123" */
+"192".OnlyNumbersOrWhiteSpace() /* return "192" */
+"1 23a".OnlyNumbersOrWhiteSpace() /* return "1 23" */
+"1 92".OnlyNumbersOrWhiteSpace() /* return "1 92" */
+```
+---

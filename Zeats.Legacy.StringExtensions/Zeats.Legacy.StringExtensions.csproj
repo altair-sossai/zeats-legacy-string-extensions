@@ -38,6 +38,7 @@
     <Compile Include="FirstCharToUpperExtension.cs" />
     <Compile Include="AlignRightExtension.cs" />
     <Compile Include="HasOnlyNumbersExtension.cs" />
+    <Compile Include="OnlyNumbersOrWhiteSpaceExtension.cs" />
     <Compile Include="OnlyNumbersExtension.cs" />
     <Compile Include="PadBothExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
