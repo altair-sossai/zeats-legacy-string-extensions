@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Zeats.Legacy.StringExtensions.UnitTest
 {
@@ -24,7 +22,7 @@ namespace Zeats.Legacy.StringExtensions.UnitTest
 
             Assert.AreEqual("Lorem Ipsum", "Lorem Ipsum".PadBoth());
             Assert.AreEqual("Lorem Ipsum", "Lorem Ipsum".PadBoth('X'));
-            
+
             Assert.AreEqual("Lorem Ipsum", "Lorem Ipsum".PadBoth(4));
             Assert.AreEqual("Lorem Ipsum", "Lorem Ipsum".PadBoth(4, 'X'));
 

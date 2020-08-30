@@ -49,3 +49,11 @@ Pad both sides of a string
 "  Lorem Ipsum  ".PadBoth(length: 20, paddingChar:'X') /* return "XX  Lorem Ipsum  XXX" */
 ```
 ---
+
+### string.HasOnlyNumbers()
+Checks if a string has only 0-9 numbers
+```c#
+"123a".HasOnlyNumbers() /* return false */
+"192".HasOnlyNumbers() /* return true */
+```
+---
