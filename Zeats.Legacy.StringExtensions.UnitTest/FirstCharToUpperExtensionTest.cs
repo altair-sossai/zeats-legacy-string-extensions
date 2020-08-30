@@ -20,6 +20,10 @@ namespace Zeats.Legacy.StringExtensions.UnitTest
 
             Assert.AreEqual("A", "a".FirstCharToUpper());
             Assert.AreEqual("A", "A".FirstCharToUpper());
+
+            Assert.AreEqual("Lorem ipsum dolor", "lorem ipsum dolor".FirstCharToUpper());
+            Assert.AreEqual("LOREM IPSUM DOLOR", "lOREM IPSUM DOLOR".FirstCharToUpper());
+            Assert.AreEqual("LOREM IPSUM DOLOR", "LOREM IPSUM DOLOR".FirstCharToUpper());
         }
     }
 }
