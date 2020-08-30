@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeats.Legacy.StringExtensio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeats.Legacy.StringExtensions.UnitTest", "Zeats.Legacy.StringExtensions.UnitTest\Zeats.Legacy.StringExtensions.UnitTest.csproj", "{DFB82C09-6D87-4D15-9FE1-6890FB6E0B76}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{AABE5F51-A45A-45A3-8AE5-CE32D90531A1}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
