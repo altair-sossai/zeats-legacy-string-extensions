@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="FirstCharToUpperExtensionTest.cs" />
     <Compile Include="AlignRightExtensionTest.cs" />
+    <Compile Include="PadBothExtensionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SafeSubstringExtensionTest.cs" />
   </ItemGroup>

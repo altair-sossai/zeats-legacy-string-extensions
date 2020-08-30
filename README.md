@@ -38,3 +38,14 @@ Right align content of a string
 "  Lorem Ipsum  ".AlignRight('X') /* return "XXXXLorem Ipsum" */
 ```
 ---
+
+### string.PadBoth(char paddingChar = ' ')
+### string.PadBoth(int length, char paddingChar = ' ')
+Pad both sides of a string
+```c#
+"Lorem Ipsum".PadBoth() /* return "Lorem Ipsum" */
+"Lorem Ipsum".PadBoth(length: 20) /* return "    Lorem Ipsum     " */
+"  Lorem Ipsum  ".PadBoth(paddingChar: 'X') /* "XXLorem IpsumXX" */
+"  Lorem Ipsum  ".PadBoth(length: 20, paddingChar:'X') /* return "XX  Lorem Ipsum  XXX" */
+```
+---
