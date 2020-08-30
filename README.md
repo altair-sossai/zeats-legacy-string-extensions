@@ -2,6 +2,8 @@
 
 Extensions to solve common problems when using strings
 
+[![Build Status](https://dev.azure.com/zeats/Legacy/_apis/build/status/zeats-legacy-string-extensions?branchName=master)](https://dev.azure.com/zeats/Legacy/_build/latest?definitionId=17&branchName=master)
+
 ## Installation
 
 ```PM>
